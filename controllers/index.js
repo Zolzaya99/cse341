@@ -1,9 +1,9 @@
-displayJoke = (req, res) => {
-    const data =
-      'How did the telephone propose to his girlfriend? ...he gave her a ring.';
-    res.status(200).send(data);
-  };
-  
-  module.exports = {
-    displayJoke,
-  };
+const getName = (req, res, next) => {
+  res.send('Zolzaya Oyunkhand Wadsworth');
+};
+
+const getNameTwo = (req, res, next) => {
+  res.send('Zolzaya is testing the second route.');
+};
+
+module.exports = {getName, getNameTwo};
