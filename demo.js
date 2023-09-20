@@ -1,7 +1,6 @@
 const {MongoClient} = require('mongodb')
 
 async function main() {
-    // const url = "mongodb+srv://oyu20001:Zoloo0527@cluster0.zpweeeh.mongodb.net/?retryWrites=true&w=majority";
 
     const client= new MongoClient(url);
 
