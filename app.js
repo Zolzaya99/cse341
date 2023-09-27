@@ -11,7 +11,7 @@ app
     res.setHeader('Access-Control-Allow-Origin', '*');
     next();
   })
-  .use('/', require('../week2/backend/routes'));
+  .use('/', require('./contacts/routes'));
 mongodb.initDb((err, mongodb) => {
   if (err) {
     console.log(err);
