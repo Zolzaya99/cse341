@@ -11,7 +11,7 @@ app
     res.setHeader('Access-Control-Allow-Origin', '*');
     next();
   })
-  .use('/', require('./contacts/routes'));
+  .use('/', require('./routes/contacts'));
 mongodb.initDb((err, mongodb) => {
   if (err) {
     console.log(err);
@@ -20,3 +20,4 @@ mongodb.initDb((err, mongodb) => {
     console.log(`Connected to DB and listening on ${port}`);
   }
 });
+
