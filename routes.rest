@@ -21,21 +21,66 @@ Content-Type: application/json
 }
 
 ### Update 
-PUT http://localhost:8080/contacts/651655ce57eb910328798d88 HTTP/1.1
+PUT http://localhost:8080/contacts/65165bd3f4aacde60511c0f8 HTTP/1.1
 Content-Type: application/json
 
 {
     "firstName": "Oyunkhand",
     "lastName": "Bayart",
     "email":"mongolia67@gmail.com",
-    "favoriteColor":"turqoise",
+    "favoriteColor":"turquoise",
     "birthday":"03/04/1986"
 }
 
 ### Remove 
-DELETE http://localhost:8080/contacts/651655ce57eb910328798d88 HTTP/1.1
+DELETE http://localhost:8080/contacts/65165bd3f4aacde60511c0f8 HTTP/1.1
 
-// Render 
+
+
+// RENDER WEEK-3 
+### All contacts
+GET https://week3-personal-assignment.onrender.com/contacts
+
+// Individual by ID
+### 
+GET https://week3-personal-assignment.onrender.com/contacts/650b7efee351b199a40b773e
+
+###
+GET https://week3-personal-assignment.onrender.com/contacts/650b802ce351b199a40b7741
+
+###
+GET https://week3-personal-assignment.onrender.com/contacts/650b808fe351b199a40b7742
+
+###
+POST https://week3-personal-assignment.onrender.com/contacts/
+Content-Type: application/json
+
+{
+    "firstName": "Boldbayar",
+    "lastName": "Oyunkhand",
+    "email":"bolddbayar@gmail.com",
+    "favoriteColor":"navy blue",
+    "birthday":"06/02/1997"
+}
+
+###
+PUT https://week3-personal-assignment.onrender.com/contacts/65165da2174eca52f093dcaa
+Content-Type: application/json
+
+{
+    "firstName": "Boldbayar",
+    "lastName": "Purevdavaa",
+    "email":"pbdboldbayar@gmail.com",
+    "favoriteColor":"green",
+    "birthday":"12/02/1994"
+}
+
+###
+DELETE https://week3-personal-assignment.onrender.com/contacts/65165da2174eca52f093dcaa
+
+
+
+// Render week-2 below
 ### 
 GET https://week2-personal-assignment.onrender.com/contacts
 ###
