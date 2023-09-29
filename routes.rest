@@ -21,20 +21,19 @@ Content-Type: application/json
 }
 
 ### Update 
-PUT http://localhost:8080/contacts/651633c199a6bb73b0a6dab7 HTTP/1.1
+PUT http://localhost:8080/contacts/651655ce57eb910328798d88 HTTP/1.1
 Content-Type: application/json
 
 {
     "firstName": "Oyunkhand",
     "lastName": "Bayart",
     "email":"mongolia67@gmail.com",
-    "favoriteColor":"orange",
+    "favoriteColor":"turqoise",
     "birthday":"03/04/1986"
 }
 
 ### Remove 
-DELETE http://localhost:8080/contacts/651633c199a6bb73b0a6dab7 HTTP/1.1
-
+DELETE http://localhost:8080/contacts/651655ce57eb910328798d88 HTTP/1.1
 
 // Render 
 ### 
