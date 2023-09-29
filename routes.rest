@@ -37,7 +37,8 @@ DELETE http://localhost:8080/contacts/651669f4056b322412163775 HTTP/1.1
 
 
 
-// RENDER WEEK-3 
+// RENDER WEEK-3
+
 ### All contacts
 GET https://week3-personal-assignment.onrender.com/contacts
 
