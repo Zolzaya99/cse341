@@ -40,20 +40,20 @@ DELETE http://localhost:8080/contacts/65170999f367b488acc1b0a9 HTTP/1.1
 // RENDER WEEK-3
 
 ### All contacts
-GET https://week3-personal-assignment.onrender.com/contacts
+GET https://week2-personal-assignment.onrender.com/contacts
 
 // Individual by ID
 ### 
-GET https://week3-personal-assignment.onrender.com/contacts/650b7efee351b199a40b773e
+GET https://week2-personal-assignment.onrender.com/contacts/650b7efee351b199a40b773e
 
 ###
-GET https://week3-personal-assignment.onrender.com/contacts/650b802ce351b199a40b7741
+GET https://week2-personal-assignment.onrender.com/contacts/650b802ce351b199a40b7741
 
 ###
-GET https://week3-personal-assignment.onrender.com/contacts/650b808fe351b199a40b7742
+GET https://week2-personal-assignment.onrender.com/contacts/650b808fe351b199a40b7742
 
 ###
-POST https://week3-personal-assignment.onrender.com/contacts/
+POST https://week2-personal-assignment.onrender.com/contacts/
 Content-Type: application/json
 
 {
@@ -65,7 +65,7 @@ Content-Type: application/json
 }
 
 ###
-PUT https://week3-personal-assignment.onrender.com/contacts/65165da2174eca52f093dcaa
+PUT https://week2-personal-assignment.onrender.com/contacts/651785f7dd9b9e081a736493
 Content-Type: application/json
 
 {
@@ -77,20 +77,26 @@ Content-Type: application/json
 }
 
 ###
-DELETE https://week3-personal-assignment.onrender.com/contacts/65166f7fa92c22db028dd477
+DELETE https://week2-personal-assignment.onrender.com/contacts/651785f7dd9b9e081a736493
 
 
 
 
 
-// Render week-2 below
-### 
-GET https://week2-personal-assignment.onrender.com/contacts
-###
-GET https://week2-personal-assignment.onrender.com/contacts/650b7efee351b199a40b773e
-###
-GET https://week2-personal-assignment.onrender.com/contacts/650b802ce351b199a40b7741
-###
-GET https://week2-personal-assignment.onrender.com/contacts/650b808fe351b199a40b7742
+
+
+
+
+
+
+# // Render week-2 below
+# ### 
+# GET https://week2-personal-assignment.onrender.com/contacts
+# ###
+# GET https://week2-personal-assignment.onrender.com/contacts/650b7efee351b199a40b773e
+# ###
+# GET https://week2-personal-assignment.onrender.com/contacts/650b802ce351b199a40b7741
+# ###
+# GET https://week2-personal-assignment.onrender.com/contacts/650b808fe351b199a40b7742
 
 
