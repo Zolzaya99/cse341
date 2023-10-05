@@ -4,8 +4,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "swagger": "node swagger.js"
-  },
+    "swagger": "node ./swagger.js"
+    },
   "author": "",
   "license": "ISC",
   "dependencies": {
