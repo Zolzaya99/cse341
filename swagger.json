@@ -5,7 +5,7 @@
     "description": "My Test API attempt",
     "version": "1.0.0"
   },
-  "host": "https://week2-personal-assignment.onrender.com",
+  "host": "week2-personal-assignment.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"

@@ -21,7 +21,7 @@ Content-Type: application/json
 }
 
 ### Update 
-PUT http://localhost:8080/contacts/6517c47823cc6501b9b59cd8 HTTP/1.1
+PUT http://localhost:8080/contacts/65204a24f628a8207f671c99 HTTP/1.1
 Content-Type: application/json
 
 {
@@ -33,7 +33,7 @@ Content-Type: application/json
 }
 
 ### Remove 
-DELETE http://localhost:8080/contacts/6517c47823cc6501b9b59cd8 HTTP/1.1
+DELETE http://localhost:8080/contacts/65204a63cb673e65b3e75d56 HTTP/1.1
 
 
 
@@ -65,7 +65,7 @@ Content-Type: application/json
 }
 
 ###
-PUT https://week2-personal-assignment.onrender.com/contacts/6517c35f3ce28230f98c6268
+PUT https://week2-personal-assignment.onrender.com/contacts/65204a63cb673e65b3e75d56
 Content-Type: application/json
 
 {
